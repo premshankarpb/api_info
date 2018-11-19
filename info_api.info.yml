@@ -1,0 +1,6 @@
+name: Info API
+description: Module for adding API in Site config.
+type: module
+package: Custom
+core: '8.x'
+version: '8.x-1.x-dev'

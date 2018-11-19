@@ -1,0 +1,8 @@
+# Schema for info api module.
+info_api.settings:
+  type: mapping
+  label: 'Site information'
+  mapping:
+    sapikey:
+      type: string
+      label: 'Site Info API Key.'

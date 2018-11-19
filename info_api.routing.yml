@@ -1,0 +1,7 @@
+info_api.json_page:
+  path: '/page_json/{apikey}/{node}'
+  defaults:
+    _controller: '\Drupal\info_api\Controller\JsonController::JsonapiPage'
+    _title: 'JSON formated page'
+  requirements:
+    _permission: 'access content'
